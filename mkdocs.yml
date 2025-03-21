@@ -5,8 +5,6 @@ nav:
   - DevSecOps: devsecops.md
   - Gitlab: gitlab.md
   - WorkflowGit: workflowgit.md
-theme: jekyll-theme-minimal
-  color_mode: dark
-
-extra_css:
-  - images/  
+theme:
+  name: mkdocs
+  color_mode: dark 
