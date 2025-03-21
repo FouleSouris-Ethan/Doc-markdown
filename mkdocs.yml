@@ -6,5 +6,5 @@ nav:
   - Gitlab: gitlab.md
   - WorkflowGit: workflowgit.md
 theme:
-  name: mkdocs
-  color_mode: dark 
+  name: material
+ 
