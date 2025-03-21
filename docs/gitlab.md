@@ -78,6 +78,5 @@ L’idée du CI est simple : dès qu’un développeur apporte une modification 
 
 5.Rapport et feedback : Les résultats sont envoyés aux développeurs (succès ou échec). 
 
-![pyramid](/home/rat/images/pyramid1.jpg)
 
  **Test unitaires (Unit Tests)** Très rapide ! : Différent cas de tests pour chaque fonction, cas bizarre qu’il peut se passer. Ex : Fonction qui divise a par b, que se passe-t'il si a est un une lettre, si a est un 0, que retourne la fonction ?

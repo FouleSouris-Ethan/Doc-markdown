@@ -7,4 +7,6 @@ nav:
   - WorkflowGit: workflowgit.md
 theme: jekyll-theme-minimal
   color_mode: dark
-  
+
+extra_css:
+  - images/  
