@@ -5,6 +5,8 @@ nav:
   - DevSecOps: devsecops.md
   - Gitlab: gitlab.md
   - WorkflowGit: workflowgit.md
+  - Kubernetes: kubernetes.md
+
 theme:
   name: material
  
