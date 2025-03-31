@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Bonnes-pratiques - Projet-cyna</title>
+        <title>ElasticSearch - Projet-cyna</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/fontawesome.min.css" rel="stylesheet">
         <link href="../css/brands.min.css" rel="stylesheet">
@@ -38,7 +38,7 @@
                                 <a href=".." class="nav-link">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a href="./" class="nav-link active" aria-current="page">Bonnes-pratiques</a>
+                                <a href="../about/" class="nav-link">Bonnes-pratiques</a>
                             </li>
                             <li class="nav-item">
                                 <a href="../devsecops/" class="nav-link">DevSecOps</a>
@@ -56,7 +56,7 @@
                                 <a href="../gra-pro/" class="nav-link">Grafana/Prometeus</a>
                             </li>
                             <li class="nav-item">
-                                <a href="../elastic/" class="nav-link">ElasticSearch</a>
+                                <a href="./" class="nav-link active" aria-current="page">ElasticSearch</a>
                             </li>
                         </ul>
 
@@ -67,12 +67,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href=".." class="nav-link">
+                                <a rel="prev" href="../gra-pro/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../devsecops/" class="nav-link">
+                                <a rel="next" class="nav-link disabled">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -94,8 +94,12 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-light">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="1"><a href="#les-bonnes-pratiques-de-documentation" class="nav-link">Les bonnes pratiques de documentation</a>
+            <li class="nav-item" data-bs-level="1"><a href="#elasticsearch" class="nav-link">ElasticSearch</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#gestion-des-logs" class="nav-link">Gestion des logs</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -103,19 +107,8 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="les-bonnes-pratiques-de-documentation">Les bonnes pratiques de documentation</h1>
-<p>Maintenir une documentation de haute qualité en DevOps nécessite l’adoption de bonnes pratiques.
-Voici des exemples issue de <a href="https://blog.stephane-robert.info/docs/documenter/mkdocs/">ce site</a>.</p>
-<h3 id="maintenance-reguliere">Maintenance régulière</h3>
-<p>La maintenance régulière de la documentation est essentielle. Les systèmes, les configurations et les processus en DevOps évoluent constamment. Il est donc indispensable de mettre à jour la documentation pour refléter ces changements. Assignez la responsabilité de la mise à jour de la documentation à des membres de l’équipe afin de garantir que les informations restent à jour. Prévoyez des révisions périodiques pour vous assurer que la documentation reste précise.</p>
-<h3 id="utilisation-de-captures-decran">Utilisation de captures d’écran</h3>
-<p>Les captures d’écran peuvent grandement améliorer la compréhension de la documentation. Lorsque vous décrivez des interfaces utilisateur, des configurations ou des étapes de processus, incluez des captures d’écran pour illustrer visuellement ce que vous décrivez. Assurez-vous que les captures d’écran sont claires et bien annotées pour que les lecteurs puissent les interpréter facilement.</p>
-<h3 id="feedback-des-utilisateurs">Feedback des utilisateurs</h3>
-<p>Encouragez les utilisateurs de la documentation à fournir des commentaires et des retours. Créez des mécanismes de rétroaction, tels que des formulaires de commentaires ou des canaux de communication, pour que les utilisateurs puissent signaler des erreurs, poser des questions ou suggérer des améliorations. Les retours des utilisateurs sont précieux pour identifier les lacunes de la documentation et les domaines qui nécessitent des clarifications.</p>
-<h3 id="normes-de-redaction">Normes de rédaction</h3>
-<p>Établissez des normes de rédaction pour maintenir la cohérence dans votre documentation. Définissez des directives sur la manière de nommer les sections, de formater le texte, d’utiliser la terminologie et d’autres aspects. Une documentation cohérente est plus facile à suivre et à comprendre pour l’ensemble de l’équipe.</p>
-<h3 id="automatisation-de-la-generation-de-la-documentation">Automatisation de la génération de la documentation</h3>
-<p>Si possible, automatisez la génération de la documentation avec MkDocs avec un pipeline CI/CD. Par exemple, configurez des scripts pour extraire automatiquement des informations à partir de sources de données, de systèmes ou de fichiers de configuration pour les inclure dans la documentation. Cela réduit la charge de travail manuelle et minimise les risques d’erreur humaine.</p></div>
+<h1 id="elasticsearch">ElasticSearch</h1>
+<h2 id="gestion-des-logs">Gestion des logs</h2></div>
             </div>
         </div>
 
