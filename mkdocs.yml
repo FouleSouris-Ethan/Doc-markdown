@@ -10,5 +10,5 @@ nav:
   - ElasticSearch: elastic.md
 
 theme:
-  name: mkdocs
+  name: material
  
