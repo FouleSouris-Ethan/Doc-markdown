@@ -6,6 +6,9 @@ Ce site web écris en markdown a pour but de documenter les réalisations mené 
 
 - [Bonnes pratiques](about.md)
 - [DevSecOps](devsecops.md)
+- [Kubernetes](kubernetes.md)
+- [Prometeus/Grafana](gra-pro.md)
+- [ElasticSearch](elastic.md)
 - [GitLab](gitlab.md)
 - [Workflow Git](workflowgit.md)
 

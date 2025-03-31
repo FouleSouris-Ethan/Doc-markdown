@@ -6,7 +6,9 @@ nav:
   - Gitlab: gitlab.md
   - WorkflowGit: workflowgit.md
   - Kubernetes: kubernetes.md
+  - Grafana/Prometeus: gra-pro.md
+  - ElasticSearch: elastic.md
 
 theme:
-  name: material
+  name: mkdocs
  
