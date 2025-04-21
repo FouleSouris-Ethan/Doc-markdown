@@ -27,7 +27,7 @@ Paramètres utiles:
  * **variable** : Les variables d'environnement qui vont être injectées dans le job. Dans gitlab, on les retrouve dans Settings > CI/CD > Variables.  
 
 
-#Fichier .gitlab.ci.yml
+# Fichier .gitlab.ci.yml
 
 L'ordre du stage est important. 
 On vient d'abord déclarer les stages: 
@@ -50,7 +50,7 @@ Ainsi de suite.
 On met le when a la fin 
 
 
-##CI/CD (Continuous Integration / Continuous Deployment)   
+## CI/CD (Continuous Integration / Continuous Deployment)   
 
  
 

@@ -1,4 +1,4 @@
-##Comprendre les différents workflow Git
+## Comprendre les différents workflow Git
 
 - No flow 
 
@@ -14,5 +14,5 @@ plus compliqué
 Simplifié
 plus adapté au CI/CD
 
-- GitLab [Flow Introduction to GitLab Flow | GitLab](https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/)
+- GitLab [Flow Introduction to GitLab Flow](https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/)
 
